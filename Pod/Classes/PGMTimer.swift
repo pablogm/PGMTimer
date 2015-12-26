@@ -22,15 +22,15 @@ THE SOFTWARE.
 
 import Foundation
 
-typealias TimerWillStart    = () -> ()
-typealias TimerDidFire      = (time: String) -> ()
-typealias TimerDidPause     = () -> ()
-typealias TimerWillResume   = () -> ()
-typealias TimerDidStop      = () -> ()
-typealias TimerDidEnd       = (time: String) -> ()
+public typealias TimerWillStart    = () -> ()
+public typealias TimerDidFire      = (time: String) -> ()
+public typealias TimerDidPause     = () -> ()
+public typealias TimerWillResume   = () -> ()
+public typealias TimerDidStop      = () -> ()
+public typealias TimerDidEnd       = (time: String) -> ()
 
 
-enum TimerState {
+public enum TimerState {
     
     case TimerStatePaused
     case TimerStateRunning
@@ -39,9 +39,9 @@ enum TimerState {
     case TimerStateUnkown
 }
 
-@objc class PGMTimer : NSObject {
+@objc public class PGMTimer : NSObject {
     
-    var state:TimerState                    = .TimerStateUnkown
+    public var state:TimerState             = .TimerStateUnkown
     
     private var timer: NSTimer!
     private var interval: NSTimeInterval    = 0.05
@@ -59,7 +59,7 @@ enum TimerState {
     
     // MARK: Init / Deinit
     
-    init(timerEnd: NSTimeInterval, timerWillStart: TimerWillStart, timerDidFire: TimerDidFire, timerDidPause: TimerDidPause, timerWillResume: TimerWillResume, timerDidStop: TimerDidStop, timerDidEnd: TimerDidEnd)
+    public init(timerEnd: NSTimeInterval, timerWillStart: TimerWillStart, timerDidFire: TimerDidFire, timerDidPause: TimerDidPause, timerWillResume: TimerWillResume, timerDidStop: TimerDidStop, timerDidEnd: TimerDidEnd)
     {
         self.timerEnd           = timerEnd
         
@@ -79,7 +79,7 @@ enum TimerState {
     
     
     // MARK: Start - Pause - Resume - Stop
-    func start(tmr : NSTimer? = nil)
+    public func start(tmr : NSTimer? = nil)
     {
         if timer == nil {
             
@@ -94,7 +94,7 @@ enum TimerState {
         state = .TimerStateRunning
     }
     
-    func pause()
+    public func pause()
     {
         guard timer != nil else {
             fatalError("Timer not initialized")
@@ -109,7 +109,7 @@ enum TimerState {
         timerDidPause()
     }
     
-    func resume()
+    public func resume()
     {
         guard timer == nil else {
             fatalError("Timer should have been invalidated before resuming")
@@ -123,7 +123,7 @@ enum TimerState {
         diff = 0.0
     }
     
-    func stop()
+    public func stop()
     {
         guard timer != nil else {
             fatalError("Timer not initialized")
@@ -142,7 +142,7 @@ enum TimerState {
     
     // MARK: Reset
     
-    func reset() {
+    public func reset() {
         
         diff        = 0.0
         timeCount   = 0.0
@@ -151,7 +151,7 @@ enum TimerState {
     
     // MARK: Fire
     
-    func fire()
+    public func fire()
     {
         timeCount = timeCount + interval
         
