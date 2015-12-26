@@ -73,7 +73,7 @@ public enum TimerState {
     
     deinit {
         
-        timer.invalidate()
+        timer?.invalidate()
         timer = nil
     }
     
