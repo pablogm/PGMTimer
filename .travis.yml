@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode7.2
-xcode_workspace: PGMTimer.xcworkspace
+xcode_workspace: Example/PGMTimer.xcworkspace
 xcode_scheme: PGMTimer-Example
 xcode_sdk: iphoneos9.2
