@@ -11,23 +11,13 @@
 		348260DC0EC0A7B6BBBF7EB1D48F1ABE /* Pods-PGMTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD76EFB46B7C5B2CDE924FCECB29D036 /* Pods-PGMTimer_Example-dummy.m */; };
 		3C93BF1BB978CA352AC926972C391B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		74CFE9516696D3E2D5567463B88B66B4 /* PGMTimer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 960A4ADD8F011360F6827922EB99F6F8 /* PGMTimer.bundle */; };
-		8A6A3AA144C2496782785AAE2B356E9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8B4B0FD50763C070E5EF6216873B5243 /* Pods-PGMTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB55AD1A42626B6F0895B959F17FE54 /* Pods-PGMTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B35490AB467C093F4CC6C1F3DEB4ED01 /* PGMTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A736D440DEB51CFA359E3FC290A8A38D /* PGMTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF176A5EAA6F49A1033813E7D2CB9DB8 /* Pods-PGMTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 963629B91FD0FA860C92FDEEE1B1BA9B /* Pods-PGMTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB8D2B7F706A58BF4BF634ACB82F6A04 /* PGMTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC37A51F20CB9CD5CD3744A2FDE474D /* PGMTimer.swift */; };
 		D17A2F063725A34AC105312EF6BCD863 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		EAEAECACABDBBF26C41B724F6984ED11 /* Pods-PGMTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DCBBB402646AD24D3C3EB8F5230CEE /* Pods-PGMTimer_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00DEFBF40EF6F718E866B6A2CDC2AD7D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4504C70C183897EE3BDAD95AC3E4988F;
-			remoteInfo = PGMTimer;
-		};
 		BC37942CFE0B5751B8068B073E7C8677 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -54,7 +44,6 @@
 		48D9EABA956414DC2E3B4C13E2C9D810 /* Pods-PGMTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGMTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4C9F600161990D5AB1E8EA1E36F3E580 /* Pods-PGMTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGMTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		56E2DF1A320A9B500B96B92A0F38FFE8 /* PGMTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGMTimer.xcconfig; sourceTree = "<group>"; };
-		58A75A7DDE2CA013EFC4CF522F4FDA1E /* Pods_PGMTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGMTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD4AFB5C3CC718D9475388585872BB8 /* Pods-PGMTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGMTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6EBA58AA51B86940B0F6047D78AE4789 /* Pods-PGMTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGMTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		70482C7E247A3C25770225B8BD972CE4 /* Pods-PGMTimer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGMTimer_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -81,14 +70,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6A928C979EBEB0914255B9F7C249E104 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A6A3AA144C2496782785AAE2B356E9C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88E0135DD10369EE1F260B454E081598 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,7 +222,6 @@
 				960A4ADD8F011360F6827922EB99F6F8 /* PGMTimer.bundle */,
 				E9711C6577E366EE46A002863EAC963C /* PGMTimer.framework */,
 				A62AC8C4DC4E6A87DED55AC5479BB100 /* Pods_PGMTimer_Example.framework */,
-				58A75A7DDE2CA013EFC4CF522F4FDA1E /* Pods_PGMTimer_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,14 +229,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4159308AB768C86C2AD4B64E526029CE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF176A5EAA6F49A1033813E7D2CB9DB8 /* Pods-PGMTimer_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A37EE08A8E37439DC740FE7120535B88 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,24 +284,6 @@
 			productReference = 960A4ADD8F011360F6827922EB99F6F8 /* PGMTimer.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		A9E7A0127E90154807BF0E34D49F0B4D /* Pods-PGMTimer_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 695C5075CE4E4DC1AB13B8748CAC7519 /* Build configuration list for PBXNativeTarget "Pods-PGMTimer_Tests" */;
-			buildPhases = (
-				0BAD5FCFE0ACB7D51FA8F294914EA22F /* Sources */,
-				6A928C979EBEB0914255B9F7C249E104 /* Frameworks */,
-				4159308AB768C86C2AD4B64E526029CE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0F2EAAEA404AB8A98831398094CB7D01 /* PBXTargetDependency */,
-			);
-			name = "Pods-PGMTimer_Tests";
-			productName = "Pods-PGMTimer_Tests";
-			productReference = 58A75A7DDE2CA013EFC4CF522F4FDA1E /* Pods_PGMTimer_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		EE2173C431F0A57D3D621A614E51FD23 /* Pods-PGMTimer_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3EE17CE865EA5A3FBD512D5545D6497 /* Build configuration list for PBXNativeTarget "Pods-PGMTimer_Example" */;
@@ -372,7 +326,6 @@
 				4504C70C183897EE3BDAD95AC3E4988F /* PGMTimer */,
 				6FFA5B34324C5D01009FF546399F1D25 /* PGMTimer-PGMTimer */,
 				EE2173C431F0A57D3D621A614E51FD23 /* Pods-PGMTimer_Example */,
-				A9E7A0127E90154807BF0E34D49F0B4D /* Pods-PGMTimer_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -396,14 +349,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BAD5FCFE0ACB7D51FA8F294914EA22F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAEAECACABDBBF26C41B724F6984ED11 /* Pods-PGMTimer_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5E5CAFA80AE97637E50B50C5F6F6F2C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,12 +376,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F2EAAEA404AB8A98831398094CB7D01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PGMTimer;
-			target = 4504C70C183897EE3BDAD95AC3E4988F /* PGMTimer */;
-			targetProxy = 00DEFBF40EF6F718E866B6A2CDC2AD7D /* PBXContainerItemProxy */;
-		};
 		6F33D32697FF982A6C47719C3647FDC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PGMTimer;
@@ -630,38 +569,6 @@
 			};
 			name = Debug;
 		};
-		722F8CFAAE71A8B9412FE227326C0F99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEA284884EE5573DD4091CA47B2FB1CD /* Pods-PGMTimer_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PGMTimer_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PGMTimer_Tests/Pods-PGMTimer_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PGMTimer_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B6FCC099796F4D861E4DAA6717CB4097 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56E2DF1A320A9B500B96B92A0F38FFE8 /* PGMTimer.xcconfig */;
@@ -673,37 +580,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
-		};
-		C67EFB704D621155C684CECDD926458E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70DBEA6C26CA4592DF5643D87CCA38CE /* Pods-PGMTimer_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PGMTimer_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PGMTimer_Tests/Pods-PGMTimer_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PGMTimer_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		E8D3F1680EBB6AA874C29EFFFADCB0F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -761,15 +637,6 @@
 			buildConfigurations = (
 				E8D3F1680EBB6AA874C29EFFFADCB0F2 /* Debug */,
 				344D1E5424472707863B6B37335FFCBF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		695C5075CE4E4DC1AB13B8748CAC7519 /* Build configuration list for PBXNativeTarget "Pods-PGMTimer_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				722F8CFAAE71A8B9412FE227326C0F99 /* Debug */,
-				C67EFB704D621155C684CECDD926458E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -33,7 +33,6 @@
 		C6B7DA4D64C427B275DB7B97 /* PGMTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PGMTimer.podspec; path = ../PGMTimer.podspec; sourceTree = "<group>"; };
 		E3E4A07294CE7A54375D78C3 /* Pods-PGMTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGMTimer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGMTimer_Tests/Pods-PGMTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF237B0BA8C458B48F4C10A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FAC40201EC9A8543F5CC461C /* Pods_PGMTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGMTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				79EE9F6FC0378A58604D7BAF /* Pods_PGMTimer_Example.framework */,
-				FAC40201EC9A8543F5CC461C /* Pods_PGMTimer_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
