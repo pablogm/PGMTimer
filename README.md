@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/PGMTimer.svg?style=flat)](http://cocoapods.org/pods/PGMTimer)
 [![Platform](https://img.shields.io/cocoapods/p/PGMTimer.svg?style=flat)](http://cocoapods.org/pods/PGMTimer)
 
+This is a simple class to provide a Swift Timer with the following features: start, stop, pause, resume.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -20,9 +22,94 @@ it, simply add the following line to your Podfile:
 pod "PGMTimer"
 ```
 
+## How to use
+
+Init timer:
+
+```swift
+    timer = Timer(timerEnd: 10.0, timerWillStart: {
+
+        print("Timer started.")
+    
+    }, timerDidFire: { [weak self] time in
+
+        self?.timerLabel.text = time
+
+    }, timerDidPause: {
+
+        print("Timer paused")
+
+    }, timerWillResume: {
+
+        print("Timer resumed")
+
+    }, timerDidStop: {
+
+        print("Timer stopped")
+
+    }, timerDidEnd: { [weak self] time in
+
+        self?.timerLabel.text = time
+
+    print("Timer End")
+    })
+```
+
+Perform actions:
+
+```swift
+    @IBAction func startTimer(sender: UIButton) {
+
+        if timer.state == .TimerStateUnkown || timer.state == .TimerStateStopped || timer.state == .TimerStateEnded {
+
+            timer.start()
+        }
+        else {
+            print("Can not start")
+        }
+    }
+
+    @IBAction func pauseTimer(sender: UIButton) {
+
+        if timer.state == .TimerStateRunning {
+
+            timer.pause()
+        }
+        else {
+            print("Can not pause")
+        }
+    }
+
+    @IBAction func resumeTimer(sender: UIButton) {
+
+        if timer.state == .TimerStatePaused {
+
+            timer.resume()
+        }
+        else {
+            print("Can not resume")
+        }
+    }
+
+    @IBAction func stopTimer(sender: UIButton) {
+
+        if timer.state == .TimerStateRunning {
+
+            timer.stop()
+        }
+        else {
+            print("Can not stop")
+        }
+    }
+```
+
+## Support
+
+Supports iOS8 and above. XCode 7.0 is required to build the latest code written in Swift 2.0
+
 ## Author
 
-pablogm, invanzert@gmail.com
+Pablo GM, invanzert@gmail.com
 
 ## License
 

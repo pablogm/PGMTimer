@@ -1,0 +1,14 @@
+PODS:
+  - PGMTimer (0.1.0)
+
+DEPENDENCIES:
+  - PGMTimer (from `../`)
+
+EXTERNAL SOURCES:
+  PGMTimer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PGMTimer: 43422d68ebcaebb30bdf188e0b7dc5da98987f0a
+
+COCOAPODS: 0.39.0
