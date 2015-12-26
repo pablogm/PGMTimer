@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/PGMTimer.svg?style=flat)](http://cocoapods.org/pods/PGMTimer)
 [![License](https://img.shields.io/cocoapods/l/PGMTimer.svg?style=flat)](http://cocoapods.org/pods/PGMTimer)
 [![Platform](https://img.shields.io/cocoapods/p/PGMTimer.svg?style=flat)](http://cocoapods.org/pods/PGMTimer)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 This is a simple class to provide a Swift Timer with the following features: start, stop, pause, resume.
 
@@ -13,13 +14,23 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-## Installation
+## Installation with CocoaPods
 
 PGMTimer is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "PGMTimer"
+```
+
+## Installation with Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is another dependency management tool written in Swift.
+
+Add the following line to your Cartfile:
+
+```
+github "pablogm/PGMTimer"
 ```
 
 ## How to use
