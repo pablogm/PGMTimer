@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PGMTimer"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Swift Timer: start, stop, pause, resume." 
   s.description      = <<-DESC
                        This is a simple class to provide a Swift Timer with the following features: start, stop, pause, resume.
