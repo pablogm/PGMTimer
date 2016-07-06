@@ -116,7 +116,7 @@ Perform actions:
 
 ## Support
 
-Supports iOS8 and above. XCode 7.0 is required to build the latest code written in Swift 2.0
+Supports iOS8 and above. Xcode 7.0 is required to build the latest code written in Swift 2.0
 
 ## Author
 
